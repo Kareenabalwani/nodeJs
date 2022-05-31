@@ -1,0 +1,51 @@
+ a browser js is used to create client side apps
+ a node js is used to create server side apps
+
+ if some browser's doenst support any feature of js then its our responsibility to fix that bug But.....
+ Node JS is written in the version that it was built in 
+ there is no need to change anything for different browsers
+
+ Node does not have acces to web apis like geolocation , fetch etc....
+ but node can access the file system that the brower js can'that
+
+ after installing node check it using node --version command in cmd prompt
+
+ node is the javascript that runs out of the browsers
+
+ if you try to acces window in node it will crash your app bcoz there is no brower so No window
+
+ in gloval variable concept the tutor has not introduced all the global varaiables they have shown few  and lot many variables will be introduced when they come into the action
+
+ you can run the node js file by typing node filename.js or node filename .
+
+// no need to export just call the add function and then simply require this file in 2-modules file and module.js file willl automatically call tha add_function
+
+when we import a module , we import the execution also
+
+for buit in modules there is no need to use ./
+just type the name of module
+./ is only used for user-defined modules
+
+//You need not to assign a module to variable , you can directly use  or console them
+//req =>incoming user request 
+//res => server response
+
+
+//npm - node package manager
+// when we install node , we also install npm
+
+//if you want a slider in your app then there are two ways
+//1. create it from scratch by yourself or
+//2. copy and paste someone else' code that they have already made it nd published for use
+
+//that is npm
+// we can use others' code easily by one command
+
+//npm allows us to do three things
+//1. use others' code
+//2. post our code/solution
+//3. reuse our code
+
+//npm has no quality control anyone can post anything even the useless things too so be aware and make a decision on the basis of weekly downloads                                                                                                 
+//i  or install both are fine i is a shortone
+// we will focus on local dependency
